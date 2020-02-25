@@ -5,8 +5,7 @@ Gem::Specification.new do |spec|
   spec.version       = "1.0.0"
   spec.authors       = ["Binyamin Green"]
 
-  spec.summary       = %q{jekyll utility plugin}
-  spec.description   = %q{jekyll utility plugin}
+  spec.summary       = "A Jekyll plugin for rendering a color hexcode"
   spec.homepage      = "https://github.com/b3u/jekyll-color-tag"
   spec.license       = "MIT"
 
