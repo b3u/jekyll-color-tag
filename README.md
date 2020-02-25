@@ -6,7 +6,9 @@
 # In your Gemfile...
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "jekyll-color-tag", :github => "b3u/jekyll-color-tag"
+group :jekyll_plugins do
+  gem "jekyll-color-tag", :github => "b3u/jekyll-color-tag"
+end
 ```
 Then, run `bundle install`.
 
