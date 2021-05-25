@@ -7,7 +7,7 @@
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 group :jekyll_plugins do
-  gem "jekyll-color-tag", :github => "b3u/jekyll-color-tag"
+  gem "jekyll-color-tag", :github => "binyamin/jekyll-color-tag"
 end
 ```
 Then, run `bundle install`.
@@ -18,5 +18,5 @@ Then, run `bundle install`.
 {% palette fff,cdcdcd,aff57d}
 ```
 
-## License
-[MIT](https://github.com/b3u/jekyll-color-tag/blob/master/LICENSE)
+## Legal
+Copyright 2021 Binyamin Green. This work is under the [MIT](https://github.com/binyamin/jekyll-color-tag/blob/main/LICENSE) license.
